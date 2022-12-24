@@ -1,0 +1,30 @@
+html,
+body {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.view-container {
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+  flex: 1;
+}
+
+.center-container {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}

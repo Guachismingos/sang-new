@@ -1,0 +1,6 @@
+{
+  "appId": "com.sang.app",
+  "appName": "sang-mui",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
