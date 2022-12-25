@@ -1,10 +1,15 @@
 import { Box, Container } from "@mui/material";
+import IconGrid from "../components/home/IconGrid";
 
 const Home = () => {
   return (
-    <Container className="view-container" sx={{display: "flex"}}>
+    <Container
+      className="view-container"
+      maxWidth="xs"
+      sx={{ display: "flex" }}
+    >
       <Box className="center-container">
-        
+        <IconGrid />
       </Box>
     </Container>
   );
