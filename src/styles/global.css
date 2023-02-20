@@ -1,0 +1,67 @@
+@import "../../node_modules/animate.css/animate.css";
+
+@font-face {
+  src: url("../assets/fonts/Quicksand.ttf");
+  font-family: "Quicksand";
+}
+
+* {
+  font-family: "Quicksand" !important;
+}
+
+html,
+body {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  background: url(../assets/images/footer-waves.png) no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.view-container {
+  display: flex !important;
+  flex-direction: column;
+  overflow: auto;
+  flex: 1;
+}
+
+.home-slide {
+  overflow: hidden;
+}
+
+.top-center-container {
+  flex-direction: column;
+  display: flex !important;
+  flex: 1;
+  align-items: center;
+}
+.center-container {
+  flex-direction: column;
+  display: flex !important;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination-progressbar-fill {
+  background: #eca440 !important;
+}
+
+.text-outlined {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#ReactSimpleImageViewer{
+  opacity: .92;
+}

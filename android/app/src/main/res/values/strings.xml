@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+    <string name="app_name">sang-mui</string>
+    <string name="title_activity_main">sang-mui</string>
+    <string name="package_name">com.sang.app</string>
+    <string name="custom_url_scheme">com.sang.app</string>
+</resources>
